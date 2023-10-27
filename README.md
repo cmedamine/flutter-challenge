@@ -1,46 +1,64 @@
-# Deliveristo Flutter Frontend Coding Challenge
+Deliveristo Flutter Frontend Coding Challenge
+=============================================
 
-## INTRO
-We have found your profile very interesting and, in order to understand if you’re a good fit for us, we would like you to show us what you do best: creating an app!
-Please, make sure you read the requirements very carefully, and start coding!
-Also, don’t forget to read the "assignment evaluation criteria" paragraph, that explains what we will focus on to grade your work.
-If you have any questions don’t be afraid to contact us.
+This project is a Flutter-based dashboard that retrieves dog images from a public API (<https://dog.ceo/dog-api>) based on various criteria. The project allows you to view random dog images, images by breed, random images by breed and sub-breed, and images by breed and sub-breed.
 
-## ASSIGNMENT
-Your task is to create a dashboard that can be used internally to show images of dogs selected by:
+How to Run the Project
+----------------------
 
-- Random image by breed
-- Images list by breed
-- Random image by breed and sub breed
-- Images list by breed and sub breed
+Follow these steps to run the project on your local machine:
 
-Feel free to customize and design the page the way you want
+1.  Prerequisites:
 
-## BACK END
-You need to interact with this public API to get all the data https://dog.ceo/dog-api.
-This wesbite exposes multiple endpoints.
+    -   Ensure you have Flutter and Dart installed on your system. If not, you can install them by following the official Flutter installation guide: <https://flutter.dev/docs/get-started/install>
+    -   You'll need an IDE to work with Flutter. You can use Visual Studio Code with the Flutter extension, Android Studio, or any IDE of your choice.
+2.  Clone the Repository:
 
-## FRONT END 
-Please for the frontend use Flutter. Feel free to use any modern tool and architectural style. 
+    Clone the project repository to your local machine using the following command:
 
-### IMPORTANT:
-- No Boilerplate (you can use flutter base one ofc)
-- Do not overuse external libraries
-- Use latest Dart syntax
+    bashCopy code
 
-## EVALUATION
-We expect you to customize the exercise and write code on your own in order to show us your real skills and code cleanliness. We are not evaluating the perfectness of every piece but we expect a well written, quality product with simple, idiomatic code.
-End to end tests are required. Cover at least a typical user flow run using e2e tests (I click on a button, the image of that dog of that breed appears). Bonus if you add unit tests also.
-You have to provide us something working and self contained, but at the same time we’d like you to think about:
+    `git clone https://github.com/cmedamine/flutter-challenge.git`
 
-- Test
-- Architecture
-- Code quality
-- Maintainability 
-- Documentation 
-- UX/UI
+3.  Navigate to the Project Directory:
 
-## SUBMISSION
-Your solution should be sent as a .git repository where you have saved all your work.  
-Please insert as well a readme file where you explain briefly how to run everything. We are expecting to run your solution and test it live.  
-Have fun coding!
+    Use the `cd` command to navigate to the project directory:
+
+    bashCopy code
+
+    `cd flutter-challenge/doggo_dashboard/`
+
+4.  Install Dependencies:
+
+    Run the following command to install the project dependencies:
+
+    bashCopy code
+
+    `flutter pub get`
+
+5.  Run the App:
+
+    You can run the app on an emulator or a physical device. Use the following command to start the app:
+
+    bashCopy code
+
+    `flutter run`
+
+    This will build and run the app on your connected device.
+
+6.  Use the App:
+
+    Once the app is running, you can explore the dashboard and interact with it to view random dog images by breed, images by breed, random images by breed and sub-breed, and images by breed and sub-breed.
+
+7.  Testing:
+
+    The project includes unit tests and end-to-end tests. You can run the tests using the following commands:
+
+    -   Run unit tests:
+
+        bashCopy code
+
+        `flutter test`
+
+
+The app should be up and running, allowing you to explore its features and functionalities. Have fun exploring and testing the project!
